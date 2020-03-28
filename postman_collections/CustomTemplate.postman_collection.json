@@ -1,0 +1,187 @@
+{
+	"id": "ec02d4cf-feb2-f61a-95a9-5ec03261020b",
+	"name": "CustomTemplate",
+	"description": "",
+	"order": [
+		"c4a37839-e844-4799-62ee-bb8d2179b34a",
+		"94bf394a-a4f5-1c83-3353-7674cebfa3a5",
+		"14c4b93f-4bbc-0855-e61c-75be7a6a5653",
+		"681a04a0-65d5-5d95-1451-84ba0a6b94f9",
+		"d1e5ec0c-8846-558c-0411-43eb323f0d30"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1585281229014,
+	"owner": "8614951",
+	"public": false,
+	"requests": [
+		{
+			"id": "14c4b93f-4bbc-0855-e61c-75be7a6a5653",
+			"headers": "Content-Type: application/json\nx-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWU3ZGI0NDhkYjhkMDEyNWI4ZTRhZjMwIiwiaWF0IjoxNTg1MzAzMjk5LCJleHAiOjE1ODUzMDM4OTl9.2ZQCUBl24J4_9Q29ZG5aaX2r5DguTMjqfGpMVHXMLiI\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWU3ZGI0NDhkYjhkMDEyNWI4ZTRhZjMwIiwiaWF0IjoxNTg1MzAzMjk5LCJleHAiOjE1ODUzMDM4OTl9.2ZQCUBl24J4_9Q29ZG5aaX2r5DguTMjqfGpMVHXMLiI",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{api}}/get-users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1585392007480,
+			"name": "getUsers",
+			"description": "",
+			"collectionId": "ec02d4cf-feb2-f61a-95a9-5ec03261020b",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\" : \"karen2111a@gmail.com\",\n\t\"password\" : \"Passward@123\"\n}"
+		},
+		{
+			"id": "681a04a0-65d5-5d95-1451-84ba0a6b94f9",
+			"headers": "Content-Type: application/json\nx-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWU3ZGI0NDhkYjhkMDEyNWI4ZTRhZjMwIiwiaWF0IjoxNTg1MzcwMzMyLCJleHAiOjE1ODUzNzA5MzJ9.rqWfXo4L7DUmuE_BBC23BQ_GFvi4fBmAQm2Bwn36l34\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWU3ZGI0NDhkYjhkMDEyNWI4ZTRhZjMwIiwiaWF0IjoxNTg1MzcwMzMyLCJleHAiOjE1ODUzNzA5MzJ9.rqWfXo4L7DUmuE_BBC23BQ_GFvi4fBmAQm2Bwn36l34",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{api}}/get-user/5e7db448db8d0125b8e4af30",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1585392011162,
+			"name": "getUser",
+			"description": "",
+			"collectionId": "ec02d4cf-feb2-f61a-95a9-5ec03261020b",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\" : \"karen2111a@gmail.com\",\n\t\"password\" : \"Passward@123\"\n}"
+		},
+		{
+			"id": "94bf394a-a4f5-1c83-3353-7674cebfa3a5",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{api}}/sign-in",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1585392002287,
+			"name": "SignIn",
+			"description": "",
+			"collectionId": "ec02d4cf-feb2-f61a-95a9-5ec03261020b",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\" : \"karen2111a@gmail.com\",\n\t\"password\" : \"Passward@123\"\n}"
+		},
+		{
+			"id": "c4a37839-e844-4799-62ee-bb8d2179b34a",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{api}}/sign-up",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1585391998271,
+			"name": "SignUp ",
+			"description": "",
+			"collectionId": "ec02d4cf-feb2-f61a-95a9-5ec03261020b",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\" : \"karen2111a@gmail.com\",\n\t\"password\" : \"Passward@123\"\n}"
+		},
+		{
+			"id": "d1e5ec0c-8846-558c-0411-43eb323f0d30",
+			"headers": "Content-Type: application/json\nx-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWU3ZGI0NDhkYjhkMDEyNWI4ZTRhZjMwIiwiaWF0IjoxNTg1MzcwMzMyLCJleHAiOjE1ODUzNzA5MzJ9.rqWfXo4L7DUmuE_BBC23BQ_GFvi4fBmAQm2Bwn36l34\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWU3ZGI0NDhkYjhkMDEyNWI4ZTRhZjMwIiwiaWF0IjoxNTg1MzcwMzMyLCJleHAiOjE1ODUzNzA5MzJ9.rqWfXo4L7DUmuE_BBC23BQ_GFvi4fBmAQm2Bwn36l34",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{api}}/auth",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1585392016557,
+			"name": "auth",
+			"description": "",
+			"collectionId": "ec02d4cf-feb2-f61a-95a9-5ec03261020b",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\" : \"karen2111a@gmail.com\",\n\t\"password\" : \"Passward@123\"\n}"
+		}
+	]
+}
