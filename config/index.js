@@ -4,7 +4,7 @@
 const config = {
     production :{
         SECRET : 'SUPERSECRETPASSWORD123',
-        DATABASE : 'mongodb+srv://prakash:Prakash@123@cluster0-yxfup.mongodb.net/sagar?retryWrites=true&w=majority'
+        DATABASE : process.env.API_URL_PRODUCTION
     },
     development : {
         SECRET : 'SUPERSECRETPASSWORD123',
